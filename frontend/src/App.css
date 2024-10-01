@@ -1,0 +1,119 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+#encabezado {
+  display: inline;
+}
+
+#block-nav {
+  background-color: white;
+  border: 2px solid #1034A6;
+}
+
+.items-nav {
+  display: inline;
+}
+
+.btn-nav {
+  background-color: white;
+  color: #1034A6;
+  border: none;
+  font-size: 25px;
+  padding: 1.2%;
+}
+
+#let-reg {
+  color: #1034A6;
+}
+
+.titulo {
+  background-color: white;
+  color: #01016D;
+  font-size: 38px;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 2%;
+}
+
+/* Remove or adjust these styles to avoid affecting the banner */
+#imagen-logo {
+  /* Consider removing these if they affect the banner */
+  width: 90px;
+  height: 90px;
+  
+}
+
+#imagen-logo2 {
+  /* Consider removing these if they affect the banner */
+  width: 100px;
+  height: 100px;
+  
+}
+
+#imagen-logo {
+  float: left;
+  margin-left: 4%;
+  margin-top: 1.2%;
+}
+
+#imagen-logo2 {
+  float: right;
+  margin-right: 4%;
+  margin-top: 1.2%;
+}
+
+/* Remove or adjust these styles for the banner */
+#banner-img {
+  /* Remove or adjust these styles */
+  width: 700px;
+  height: 200px;
+}
+
+#imagen-home {
+  /* Remove or adjust these styles */
+  margin: 5%;
+  border-radius: 25px;
+  width: 650px;
+  height: 500px;
+}
+
+#parrafo-home {
+  font-size: 20px;
+  padding: 0.5%;
+  text-align: justify;
+  margin: 5% 6% 0;
+}
+
+#bienvenida {
+  margin: 2%;
+  padding: 2%;
+}
+
+#parrafo-galeria {
+  font-size: 15px;
+  padding: 0.5%;
+  text-align: justify;
+  margin: 2% 6% 0;
+}
+
+/* Footer */
+.footer-pie {
+  background-color: #434343;
+}
+
+.text-pie {
+  color: white;
+}
+
+
+.imag-nos{
+  width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio debajo de la imagen */
+  border-radius: 25px;
+  overflow: hidden;
+}
